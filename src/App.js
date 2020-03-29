@@ -73,58 +73,17 @@ const App = () => {
   return (
     <div className="app-container">
       <div className="info-container">
+        <img className="logo" src="/logo.svg" />
         <h1>Kia kaha</h1>
         <p>
           Kia kaha, stay strong New Zealand in this COVID-19 pandemic crisis.
           The aim of this project is to inform and help withou expecting any
-          reward. Especial hanks for AppLab - Auckland University of Technology,
-          the Medini Vipassana Meditaion Centre and the New Zealand Ministry of
-          Health for the data.
+          reward. Especial thanks for AppLab - Auckland University of
+          Technology, the Medini Vipassana Meditaion Centre and the New Zealand
+          Ministry of Health for share their data with the public.
         </p>
         <p>Data source: New Zealand Ministry of Health - Manatū Hauora</p>
-        <div>
-          <div className="card-container">
-            <div className="card-text">
-              <h2>Total cases per District Health Board - DHS</h2>
-              <p>
-                {" "}
-                There is {totalNZCases} in New Zealand
-                {totalDhbCases[2] +
-                  totalDhbCases[19] +
-                  totalDhbCases[4] +
-                  totalDhbCases[12]}{" "}
-                of the cases are concentrated in Ackland - {totalDhbCases[2]},
-                Southern - {totalDhbCases[19]}, Waikato - {totalDhbCases[4]},
-                Capital & Coast - {totalDhbCases[12]}.
-              </p>
-            </div>
-            <div className="card-chart">
-              <Plot
-                config={{ displayModeBar: false }}
-                data={[
-                  {
-                    values: totalDhbCases,
-                    labels: dhbsNames,
-                    type: "pie"
-                  }
-                ]}
-                layout={{
-                  autosize: true,
-                  showlegend: false,
-                  margin: {
-                    l: 20,
-                    r: 80,
-                    b: 20,
-                    t: 20,
-                    pad: 0
-                  }
-                }}
-                useResizeHandler={true}
-                style={{ width: "100%", height: "100%" }}
-              />
-            </div>
-          </div>
-        </div>
+
         <div className="card-container">
           <div className="card-text">
             <h2>Total cases per reported date</h2>
@@ -141,7 +100,7 @@ const App = () => {
                   y: dateTotalCases,
                   type: "scatter",
                   mode: "lines+markers",
-                  marker: { opacity: 0.4, color: "#000000" }
+                  marker: { opacity: 0.4, color: "#EE0014" }
                 }
               ]}
               layout={{
@@ -151,6 +110,48 @@ const App = () => {
                   l: 50,
                   r: 50,
                   b: 100,
+                  t: 20,
+                  pad: 0
+                }
+              }}
+              useResizeHandler={true}
+              style={{ width: "100%", height: "100%" }}
+            />
+          </div>
+        </div>
+
+        <div className="card-container">
+          <div className="card-text">
+            <h2>Total cases per District Health Board - DHS</h2>
+            <p>
+              {" "}
+              There is {totalNZCases} in New Zealand -
+              {totalDhbCases[2] +
+                totalDhbCases[19] +
+                totalDhbCases[4] +
+                totalDhbCases[12]}{" "}
+              of the cases are concentrated in Ackland - {totalDhbCases[2]},
+              Southern - {totalDhbCases[19]}, Waikato - {totalDhbCases[4]},
+              Capital & Coast - {totalDhbCases[12]}.
+            </p>
+          </div>
+          <div className="card-chart">
+            <Plot
+              config={{ displayModeBar: false }}
+              data={[
+                {
+                  values: totalDhbCases,
+                  labels: dhbsNames,
+                  type: "pie"
+                }
+              ]}
+              layout={{
+                autosize: true,
+                showlegend: false,
+                margin: {
+                  l: 20,
+                  r: 80,
+                  b: 20,
                   t: 20,
                   pad: 0
                 }
