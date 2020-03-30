@@ -1,0 +1,15 @@
+{
+    "kiakaha": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-kiakaha-kiakaha-195734-authRole",
+            "UnauthRoleArn": "arn:aws:iam::837623038432:role/amplify-kiakaha-kiakaha-195734-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::837623038432:role/amplify-kiakaha-kiakaha-195734-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-kiakaha-kiakaha-195734-deployment",
+            "UnauthRoleName": "amplify-kiakaha-kiakaha-195734-unauthRole",
+            "StackName": "amplify-kiakaha-kiakaha-195734",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:837623038432:stack/amplify-kiakaha-kiakaha-195734/be1e4bd0-7253-11ea-80a9-066f346b367c",
+            "AmplifyAppId": "d8an99xi1gmcd"
+        }
+    }
+}
