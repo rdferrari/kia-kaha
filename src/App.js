@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
+import Amplify from "@aws-amplify/core";
 import Plot from "react-plotly.js";
 import { data } from "./data";
 import { dhbs } from "./dhbs";
 
 import "./App.css";
+
+Amplify.configure(aws_exports);
 
 const App = () => {
   const [dhbsNames, setDhbsNames] = useState([]);
