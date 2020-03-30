@@ -76,7 +76,7 @@ const App = () => {
         <img className="logo" src="/logo.svg" />
         <p>
           Kia kaha, stay strong New Zealand in this COVID-19 pandemic crisis.
-          The aim of this project is to inform and help.
+          The aim of this project is to inform and help!
         </p>
         <p>Data source: New Zealand Ministry of Health - Manatū Hauora</p>
 
