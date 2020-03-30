@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c8810b173da2ca9affe553f1a8bcdde",
+    "revision": "cd3f8e3b7f360aceed49035b42c045e4",
     "url": "/kia-kaha/index.html"
   },
   {
-    "revision": "777b31a5ac72a524826f",
+    "revision": "5fa554bc751a3a0bef23",
     "url": "/kia-kaha/static/css/main.cb587454.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kia-kaha/static/js/2.5f4a86f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "777b31a5ac72a524826f",
-    "url": "/kia-kaha/static/js/main.f0f2a266.chunk.js"
+    "revision": "5fa554bc751a3a0bef23",
+    "url": "/kia-kaha/static/js/main.ab36f5c2.chunk.js"
   },
   {
     "revision": "80c61f7843dd51ecbd7b",
