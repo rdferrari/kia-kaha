@@ -6,7 +6,7 @@ import { dhbs } from "./dhbs";
 
 import "./App.css";
 
-import aws_exports from "./aws-exports";
+import aws_exports from "./aws-exports.js";
 Amplify.configure(aws_exports);
 
 const App = () => {
