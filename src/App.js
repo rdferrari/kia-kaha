@@ -73,7 +73,7 @@ const App = () => {
   return (
     <div className="app-container">
       <div className="info-container">
-        <img className="logo" src="/logo.svg" />
+        <img className="logo" src="/kia-kaha/logo-kiakaha.svg" />
         <p>
           Kia kaha, stay strong New Zealand in this COVID-19 pandemic crisis.
           The aim of this project is to inform and help!
