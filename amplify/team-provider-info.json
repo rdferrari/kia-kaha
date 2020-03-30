@@ -1,0 +1,15 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-kiakaha-master-165534-authRole",
+            "UnauthRoleArn": "arn:aws:iam::837623038432:role/amplify-kiakaha-master-165534-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::837623038432:role/amplify-kiakaha-master-165534-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-kiakaha-master-165534-deployment",
+            "UnauthRoleName": "amplify-kiakaha-master-165534-unauthRole",
+            "StackName": "amplify-kiakaha-master-165534",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:837623038432:stack/amplify-kiakaha-master-165534/5143f820-723a-11ea-9183-0a11551d5e9e",
+            "AmplifyAppId": "d16bt9a0foy28b"
+        }
+    }
+}
