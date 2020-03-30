@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kia-kaha/static/css/main.cb587454.chunk.css",
+    "main.js": "/kia-kaha/static/js/main.f0f2a266.chunk.js",
+    "main.js.map": "/kia-kaha/static/js/main.f0f2a266.chunk.js.map",
+    "runtime-main.js": "/kia-kaha/static/js/runtime-main.528bce45.js",
+    "runtime-main.js.map": "/kia-kaha/static/js/runtime-main.528bce45.js.map",
+    "static/js/2.5f4a86f1.chunk.js": "/kia-kaha/static/js/2.5f4a86f1.chunk.js",
+    "static/js/2.5f4a86f1.chunk.js.map": "/kia-kaha/static/js/2.5f4a86f1.chunk.js.map",
+    "index.html": "/kia-kaha/index.html",
+    "precache-manifest.cdfed20eb7ea34729a5adc28a103ea6b.js": "/kia-kaha/precache-manifest.cdfed20eb7ea34729a5adc28a103ea6b.js",
+    "service-worker.js": "/kia-kaha/service-worker.js",
+    "static/css/main.cb587454.chunk.css.map": "/kia-kaha/static/css/main.cb587454.chunk.css.map",
+    "static/js/2.5f4a86f1.chunk.js.LICENSE.txt": "/kia-kaha/static/js/2.5f4a86f1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.528bce45.js",
+    "static/js/2.5f4a86f1.chunk.js",
+    "static/css/main.cb587454.chunk.css",
+    "static/js/main.f0f2a266.chunk.js"
+  ]
+}
