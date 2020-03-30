@@ -1,5 +1,5 @@
 {
-  "name": "convid-nz",
+  "name": "kia-kaha",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,8 +13,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "yarn start",
+    "build": "yarn run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
