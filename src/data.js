@@ -1,17 +1,641 @@
 export const data = [
   {
-    Report_Date: "28/03/2020",
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "50 to 59",
+    DHB: "Auckland",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "22/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
     Sex: "Female",
-    Age_group: "15 to 19",
+    Age_group: "50 to 59",
+    DHB: "Auckland",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "24/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
     DHB: "Auckland",
     Overseas: "",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "",
+    Age_group: "20 to 29",
+    DHB: "Auckland",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Auckland",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Auckland",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "25/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "10 to 14",
+    DHB: "Auckland",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Auckland",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Auckland",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Capital and Coast",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United Kingdom",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "23/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "30 to 39",
+    DHB: "Capital and Coast",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "23/03/20",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "70+",
+    DHB: "Capital and Coast",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Capital and Coast",
+    Overseas: "Yes",
+    Last_City_before_NZ: "New Zealand",
+    Flight_No: "QF171",
+    Departure_date: "24/03/20",
+    Arrival_date: "24/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "30 to 39",
+    DHB: "Capital and Coast",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Capital and Coast",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Counties Manukau",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United Arab Emirates",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "19/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "30 to 39",
+    DHB: "MidCentral",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "NZ5107",
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Nelson Marlborough",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United Arab Emirates",
+    Flight_No: "NZ5069",
+    Departure_date: "20/03/20",
+    Arrival_date: "19/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Northland",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Canada",
+    Flight_No: "GB615",
+    Departure_date: "23/03/20",
+    Arrival_date: "23/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Northland",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "60 to 69",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "60 to 69",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Southern",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "15 to 19",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "50 to 59",
+    DHB: "Waikato",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Australia",
+    Flight_No: "",
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "30 to 39",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "30 to 39",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "30 to 39",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "50 to 59",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Waikato",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "50 to 59",
+    DHB: "Waikato",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Waitemata",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Waitemata",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "20/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Waitemata",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United States of America",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "60 to 69",
+    DHB: "Waitemata",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "19/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "50 to 59",
+    DHB: "Waitemata",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "25/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Waitemata",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "15 to 19",
+    DHB: "Waitemata",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "50 to 59",
+    DHB: "Waitemata",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Waitemata",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "21/03/20"
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Waitemata",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "15 to 19",
+    DHB: "Waitemata",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "29/03/2020",
+    Sex: "Female",
+    Age_group: "15 to 19",
+    DHB: "Waitemata",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "15 to 19",
+    DHB: "Auckland",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -22,10 +646,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "30 to 39",
+    DHB: "Auckland",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -36,24 +668,29 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Female",
     Age_group: "20 to 29",
     DHB: "Auckland",
-    Overseas: "",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Overseas: "Yes",
+    Last_City_before_NZ: "Qatar",
+    Flight_No: "EK448",
+    Departure_date: "20/03/20",
+    Arrival_date: "21/03/20"
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Male",
+    Age_group: "60 to 69",
+    DHB: "Auckland",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Qatar",
+    Flight_No: "EK448",
+    Departure_date: "21/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -64,38 +701,40 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Female",
     Age_group: "30 to 39",
     DHB: "Auckland",
-    Overseas: "",
-    Last_City_before_NZ: "",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Qatar",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Auckland",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United Arab Emirates",
+    Flight_No: "EK448",
+    Departure_date: "23/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Female",
     Age_group: "50 to 59",
     DHB: "Auckland",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -106,24 +745,29 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Male",
     Age_group: "60 to 69",
     DHB: "Auckland",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "30 to 39",
+    DHB: "Auckland",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Indonesia",
+    Flight_No: "EK450",
+    Departure_date: "23/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -132,12 +776,9 @@ export const data = [
     DHB: "Auckland",
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Flight_No: "NZ1",
+    Departure_date: "25/03/20",
+    Arrival_date: "27/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -145,13 +786,10 @@ export const data = [
     Age_group: "70+",
     DHB: "Bay of Plenty",
     Overseas: "Yes",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "8/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Last_City_before_NZ: "Northern America",
+    Flight_No: "NZ29",
+    Departure_date: "16/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -159,13 +797,10 @@ export const data = [
     Age_group: "20 to 29",
     DHB: "Bay of Plenty",
     Overseas: "Yes",
-    Last_City_before_NZ: "United Kingdom",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "26/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Last_City_before_NZ: "Australia",
+    Flight_No: "EK2",
+    Departure_date: "23/03/20",
+    Arrival_date: "26/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -175,11 +810,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "QF133",
-    Departure_date: "24/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "24/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -189,11 +821,19 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "QF133",
-    Departure_date: "24/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "24/03/20",
+    Arrival_date: "24/03/20"
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Male",
+    Age_group: "30 to 39",
+    DHB: "Canterbury",
+    Overseas: "Yes",
+    Last_City_before_NZ: "France",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -203,11 +843,30 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK412",
-    Departure_date: "23/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "23/03/20",
+    Arrival_date: "23/03/20"
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Canterbury",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Canterbury",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -217,11 +876,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "NZ433",
-    Departure_date: "17/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -231,11 +887,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "NZ5374",
-    Departure_date: "24/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "24/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -246,10 +899,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Capital and Coast",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United Kingdom",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -259,39 +920,41 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ443",
-    Departure_date: "25/03/2020",
-    Arrival_date: "25/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "25/03/20",
+    Arrival_date: "25/03/20"
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "50 to 59",
+    DHB: "Counties Manukau",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Male",
     Age_group: "40 to 49",
     DHB: "Counties Manukau",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Female",
     Age_group: "40 to 49",
     DHB: "Counties Manukau",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -302,10 +965,7 @@ export const data = [
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -316,10 +976,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "20 to 29",
+    DHB: "Lakes",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -330,10 +998,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -342,12 +1007,9 @@ export const data = [
     DHB: "South Canterbury",
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
-    Flight_No: "NZ675",
-    Departure_date: "17/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Flight_No: "NZ67",
+    Departure_date: "17/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -358,10 +1020,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -372,10 +1031,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -386,10 +1042,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -400,10 +1053,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -413,11 +1063,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "NZ671",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -428,10 +1075,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -442,10 +1086,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -456,10 +1097,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -469,11 +1107,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK412",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -484,10 +1119,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -497,11 +1129,19 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "France",
     Flight_No: "NZ615",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "70+",
+    DHB: "Waikato",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -512,10 +1152,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -526,10 +1163,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Waitemata",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -540,10 +1185,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -551,27 +1193,21 @@ export const data = [
     Age_group: "20 to 29",
     DHB: "Waitemata",
     Overseas: "Yes",
-    Last_City_before_NZ: "England",
+    Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Female",
     Age_group: "20 to 29",
     DHB: "Waitemata",
-    Overseas: "",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Overseas: "Yes",
+    Last_City_before_NZ: "United Arab Emirates",
+    Flight_No: "EK448",
+    Departure_date: "23/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -582,24 +1218,29 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Waitemata",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Female",
     Age_group: "15 to 19",
     DHB: "Waitemata",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
@@ -610,10 +1251,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -624,10 +1262,18 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Waitemata",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United States of America",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "28/03/2020",
@@ -638,24 +1284,29 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "28/03/2020",
+    Sex: "Female",
+    Age_group: "10 to 14",
+    DHB: "Waitemata",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "28/03/2020",
     Sex: "Female",
     Age_group: "15 to 19",
     DHB: "Waitemata",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -666,10 +1317,7 @@ export const data = [
     Last_City_before_NZ: "Netherlands",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -680,10 +1328,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -694,10 +1339,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -708,10 +1350,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -722,10 +1361,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -736,10 +1372,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -750,10 +1383,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -763,11 +1393,8 @@ export const data = [
     Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "NZ674",
-    Departure_date: "17/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -777,11 +1404,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "NZ8141",
-    Departure_date: "23/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "23/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -790,12 +1414,9 @@ export const data = [
     DHB: "Canterbury",
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
-    Flight_No: "VA0097",
-    Departure_date: "23/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Flight_No: "VA97",
+    Departure_date: "23/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -805,11 +1426,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "TG917",
-    Departure_date: "20/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -819,25 +1437,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "NZ425",
-    Departure_date: "22/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "27/03/2020",
-    Sex: "Male",
-    Age_group: "50 to 59",
-    DHB: "Capital and Coast",
-    Overseas: "No",
-    Last_City_before_NZ: "",
-    Flight_No: "NZ8876",
-    Departure_date: "23/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "22/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -847,11 +1448,19 @@ export const data = [
     Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "NZ8876",
-    Departure_date: "23/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "23/03/20",
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "27/03/2020",
+    Sex: "Male",
+    Age_group: "50 to 59",
+    DHB: "Capital and Coast",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "NZ8876",
+    Departure_date: "23/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -862,10 +1471,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -876,10 +1482,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -890,10 +1493,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -904,10 +1504,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -917,11 +1514,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "England",
     Flight_No: "NZ5005",
-    Departure_date: "22/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "22/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -931,11 +1525,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "JQ253",
-    Departure_date: "22/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "22/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -945,25 +1536,19 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Singapore",
     Flight_No: "NZ441",
-    Departure_date: "20/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "27/03/2020",
     Sex: "Female",
     Age_group: "60 to 69",
     DHB: "Hutt Valley",
-    Overseas: "",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Overseas: "Yes",
+    Last_City_before_NZ: "Singapore",
+    Flight_No: "NZ441",
+    Departure_date: "20/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -974,10 +1559,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "12/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "12/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -988,10 +1570,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "27/03/2020",
+    Sex: "Female",
+    Age_group: "60 to 69",
+    DHB: "South Canterbury",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United States of America",
+    Flight_No: "NZ675",
+    Departure_date: "17/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1001,11 +1591,19 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "",
     Flight_No: "OA4326",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
+  },
+  {
+    Report_Date: "27/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "South Canterbury",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1016,52 +1614,29 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
     Sex: "Female",
-    Age_group: "60 to 69",
+    Age_group: "50 to 59",
     DHB: "Southern",
-    Overseas: "Yes",
-    Last_City_before_NZ: "United States of America",
-    Flight_No: "NZ675",
-    Departure_date: "17/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
     Sex: "Male",
     Age_group: "50 to 59",
     DHB: "Southern",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "27/03/2020",
-    Sex: "Female",
-    Age_group: "50 to 59",
-    DHB: "Southern",
-    Overseas: "",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1072,10 +1647,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1086,10 +1658,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1100,38 +1669,40 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
     Sex: "Male",
     Age_group: "50 to 59",
     DHB: "Southern",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
     Sex: "Female",
-    Age_group: "50 to 59",
+    Age_group: "20 to 29",
     DHB: "Southern",
     Overseas: "",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "27/03/2020",
+    Sex: "Female",
+    Age_group: "70+",
+    DHB: "Southern",
+    Overseas: "No",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1142,10 +1713,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1156,10 +1724,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "27/03/2020",
+    Sex: "Female",
+    Age_group: "50 to 59",
+    DHB: "Southern",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1170,10 +1746,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1184,10 +1757,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1198,10 +1768,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1211,11 +1778,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK5121",
-    Departure_date: "20/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1226,10 +1790,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1240,10 +1801,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1253,11 +1811,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ639",
-    Departure_date: "23/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "23/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1268,10 +1823,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1282,10 +1834,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1296,10 +1845,7 @@ export const data = [
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1309,11 +1855,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "EK450",
-    Departure_date: "21/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1324,10 +1867,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1338,10 +1878,7 @@ export const data = [
     Last_City_before_NZ: "Ireland",
     Flight_No: "EK448",
     Departure_date: "",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1352,10 +1889,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1364,26 +1898,9 @@ export const data = [
     DHB: "Waikato",
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
-    Flight_No: "EK010",
+    Flight_No: "EK10",
     Departure_date: "",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "27/03/2020",
-    Sex: "Female",
-    Age_group: "20 to 29",
-    DHB: "Waikato",
-    Overseas: "",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1394,10 +1911,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1408,10 +1922,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1422,10 +1933,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1436,10 +1944,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1450,10 +1955,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1464,10 +1966,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1478,10 +1977,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1492,10 +1988,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1506,10 +1999,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "27/03/2020",
@@ -1520,10 +2010,29 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "6/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "6/03/20"
+  },
+  {
+    Report_Date: "27/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Whanganui",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United States of America",
+    Flight_No: "NZ6067",
+    Departure_date: "22/03/20",
+    Arrival_date: "23/03/20"
+  },
+  {
+    Report_Date: "27/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Whanganui",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United States of America",
+    Flight_No: "NZ6067",
+    Departure_date: "22/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "27/03/2020",
@@ -1533,39 +2042,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ6707",
-    Departure_date: "22/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "27/03/2020",
-    Sex: "Male",
-    Age_group: "20 to 29",
-    DHB: "Whanganui",
-    Overseas: "Yes",
-    Last_City_before_NZ: "United States of America",
-    Flight_No: "NZ6067",
-    Departure_date: "22/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "27/03/2020",
-    Sex: "Male",
-    Age_group: "20 to 29",
-    DHB: "Whanganui",
-    Overseas: "Yes",
-    Last_City_before_NZ: "United States of America",
-    Flight_No: "NZ6067",
-    Departure_date: "22/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "22/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1576,10 +2054,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1590,10 +2065,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1604,10 +2076,18 @@ export const data = [
     Last_City_before_NZ: "Ireland",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "16/03/20"
+  },
+  {
+    Report_Date: "26/03/2020",
+    Sex: "Male",
+    Age_group: "40 to 49",
+    DHB: "Auckland",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United States of America",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1618,10 +2098,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1632,10 +2109,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1646,10 +2120,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "26/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Auckland",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1660,10 +2142,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1673,11 +2152,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Greece",
     Flight_No: "QR920",
-    Departure_date: "17/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1687,11 +2163,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "",
     Flight_No: "EK68",
-    Departure_date: "23/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "23/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1702,10 +2175,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1715,11 +2185,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Egypt",
     Flight_No: "NZ884",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1729,11 +2196,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "EK412",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1743,11 +2207,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "UA917",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1758,10 +2219,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1772,10 +2230,7 @@ export const data = [
     Last_City_before_NZ: "Canada",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1786,10 +2241,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "26/03/2020",
+    Sex: "Female",
+    Age_group: "30 to 39",
+    DHB: "Canterbury",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Australia",
+    Flight_No: "QF139",
+    Departure_date: "14/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1800,24 +2263,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "26/03/2020",
-    Sex: "Female",
-    Age_group: "30 to 39",
-    DHB: "Canterbury",
-    Overseas: "Yes",
-    Last_City_before_NZ: "Australia",
-    Flight_No: "QF139",
-    Departure_date: "14/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1828,10 +2274,7 @@ export const data = [
     Last_City_before_NZ: "Japan",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1841,11 +2284,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "QF161",
-    Departure_date: "24/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "24/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1856,10 +2296,7 @@ export const data = [
     Last_City_before_NZ: "New Zealand",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1870,10 +2307,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1884,10 +2318,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1898,10 +2329,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1911,11 +2339,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ8161",
-    Departure_date: "25/03/2020",
-    Arrival_date: "25/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "25/03/20",
+    Arrival_date: "25/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1925,11 +2350,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ5027",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1939,11 +2361,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ5027",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1954,24 +2373,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "26/03/2020",
-    Sex: "Female",
-    Age_group: "40 to 49",
-    DHB: "Hutt Valley",
-    Overseas: "Yes",
-    Last_City_before_NZ: "United Arab Emirates",
-    Flight_No: "EK448",
-    Departure_date: "20/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -1981,11 +2383,19 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "NZ457",
-    Departure_date: "21/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "21/03/20"
+  },
+  {
+    Report_Date: "26/03/2020",
+    Sex: "Female",
+    Age_group: "40 to 49",
+    DHB: "Hutt Valley",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United Arab Emirates",
+    Flight_No: "EK448",
+    Departure_date: "20/03/20",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -1996,10 +2406,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2009,11 +2416,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Indonesia",
     Flight_No: "NZ409",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2023,11 +2427,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "England",
     Flight_No: "CX2190",
-    Departure_date: "23/03/2020",
-    Arrival_date: "25/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "23/03/20",
+    Arrival_date: "25/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2038,10 +2439,7 @@ export const data = [
     Last_City_before_NZ: "Saudi Arabia",
     Flight_No: "EK448",
     Departure_date: "",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2052,10 +2450,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2065,11 +2460,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Switzerland",
     Flight_No: "JQ295",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2080,10 +2472,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2094,10 +2483,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "25/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "25/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2108,10 +2494,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2122,10 +2505,7 @@ export const data = [
     Last_City_before_NZ: "Argentina",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2136,10 +2516,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2149,11 +2526,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ619",
-    Departure_date: "21/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2163,11 +2537,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ8161",
-    Departure_date: "18/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2178,10 +2549,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2191,11 +2559,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Singapore",
     Flight_No: "SQ285",
-    Departure_date: "24/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "24/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2206,10 +2571,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2219,11 +2581,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Thailand",
     Flight_No: "TG491",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2233,11 +2592,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "",
     Flight_No: "NZ7",
-    Departure_date: "20/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2247,11 +2603,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "VA145",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2261,11 +2614,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "EK448",
-    Departure_date: "15/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2276,10 +2626,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "25/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "25/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2290,10 +2637,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2303,11 +2647,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Canada",
     Flight_No: "NZ23",
-    Departure_date: "20/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2318,10 +2659,7 @@ export const data = [
     Last_City_before_NZ: "Philippines",
     Flight_No: "PR218",
     Departure_date: "",
-    Arrival_date: "6/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "6/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2332,10 +2670,7 @@ export const data = [
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2346,10 +2681,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2359,11 +2691,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "QF143",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2374,10 +2703,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2388,10 +2714,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2401,11 +2724,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
-    Departure_date: "20/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2416,10 +2736,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2429,11 +2746,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ5",
-    Departure_date: "22/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "22/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2444,10 +2758,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2458,10 +2769,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2472,10 +2780,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/03/2020",
@@ -2486,10 +2791,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "12/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "12/03/20"
   },
   {
     Report_Date: "26/03/2020",
@@ -2500,10 +2802,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2514,10 +2813,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2527,11 +2823,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ29",
-    Departure_date: "15/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2542,10 +2835,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2556,10 +2846,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2569,11 +2856,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ1",
-    Departure_date: "13/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2583,11 +2867,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK448",
-    Departure_date: "13/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2598,10 +2879,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2612,10 +2890,7 @@ export const data = [
     Last_City_before_NZ: "Singapore",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2626,10 +2901,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2640,10 +2912,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2653,11 +2922,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Argentina",
     Flight_No: "LA801",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2668,10 +2934,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2682,10 +2945,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ102",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2695,11 +2955,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ7",
-    Departure_date: "20/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2710,10 +2967,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2724,10 +2978,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2737,11 +2988,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "EK412",
-    Departure_date: "24/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "24/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2752,10 +3000,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2765,11 +3010,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "EK5047",
-    Departure_date: "21/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2779,11 +3021,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "New Zealand",
     Flight_No: "NZ411",
-    Departure_date: "24/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "24/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2793,11 +3032,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ409",
-    Departure_date: "19/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2807,11 +3043,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "NZ433",
-    Departure_date: "21/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2821,11 +3054,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "EK448",
-    Departure_date: "18/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2836,10 +3066,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2850,10 +3077,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2864,10 +3088,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2878,10 +3099,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2892,24 +3110,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "25/03/2020",
-    Sex: "Female",
-    Age_group: "60 to 69",
-    DHB: "Hawke's Bay",
-    Overseas: "Yes",
-    Last_City_before_NZ: "Cambodia",
-    Flight_No: "NZ5019",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2919,11 +3120,19 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Cambodia",
     Flight_No: "NZ5019",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
+  },
+  {
+    Report_Date: "25/03/2020",
+    Sex: "Female",
+    Age_group: "60 to 69",
+    DHB: "Hawke's Bay",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Cambodia",
+    Flight_No: "NZ5019",
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2934,10 +3143,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -2948,10 +3154,7 @@ export const data = [
     Last_City_before_NZ: "Singapore",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "14/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2961,11 +3164,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "NZ8155",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2976,10 +3176,7 @@ export const data = [
     Last_City_before_NZ: "Switzerland",
     Flight_No: "QR920",
     Departure_date: "",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -2987,13 +3184,10 @@ export const data = [
     Age_group: "50 to 59",
     DHB: "MidCentral",
     Overseas: "Yes",
-    Last_City_before_NZ: "United States of America",
+    Last_City_before_NZ: "",
     Flight_No: "NZ5107",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3004,24 +3198,18 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "25/03/2020",
     Sex: "Male",
     Age_group: "60 to 69",
     DHB: "Nelson Marlborough",
-    Overseas: "",
+    Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "",
-    Departure_date: "5/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "5/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3032,10 +3220,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3044,12 +3229,9 @@ export const data = [
     DHB: "Northland",
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
-    Flight_No: "EK488",
-    Departure_date: "19/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Flight_No: "EK448",
+    Departure_date: "19/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3059,11 +3241,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ1",
-    Departure_date: "23/03/2020",
-    Arrival_date: "24/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "23/03/20",
+    Arrival_date: "24/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3074,10 +3253,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3087,11 +3263,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Germany",
     Flight_No: "NZ625",
-    Departure_date: "21/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3102,24 +3275,7 @@ export const data = [
     Last_City_before_NZ: "Germany",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "25/03/2020",
-    Sex: "Male",
-    Age_group: "20 to 29",
-    DHB: "Southern",
-    Overseas: "",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3130,10 +3286,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "25/03/2020",
+    Sex: "Male",
+    Age_group: "20 to 29",
+    DHB: "Southern",
+    Overseas: "",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3143,11 +3307,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "NZ677",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3158,10 +3319,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3172,10 +3330,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3186,10 +3341,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3200,10 +3352,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3214,10 +3363,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3228,10 +3374,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3241,11 +3384,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "",
     Flight_No: "NZ5",
-    Departure_date: "17/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3256,10 +3396,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3270,10 +3407,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3284,24 +3418,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
     Sex: "Female",
     Age_group: "40 to 49",
     DHB: "Waikato",
-    Overseas: "",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Overseas: "Yes",
+    Last_City_before_NZ: "Singapore",
+    Flight_No: "SQ281",
+    Departure_date: "15/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3312,10 +3440,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3326,10 +3451,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3339,11 +3461,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK448",
-    Departure_date: "18/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3353,11 +3472,8 @@ export const data = [
     Overseas: "",
     Last_City_before_NZ: "",
     Flight_No: "EK448",
-    Departure_date: "20/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3368,10 +3484,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3381,11 +3494,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "EL342",
-    Departure_date: "11/03/2020",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "11/03/20",
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3396,10 +3506,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3410,10 +3517,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3424,24 +3528,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "25/03/2020",
-    Sex: "Female",
-    Age_group: "30 to 39",
-    DHB: "Waikato",
-    Overseas: "",
-    Last_City_before_NZ: "",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3452,10 +3539,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
+  },
+  {
+    Report_Date: "25/03/2020",
+    Sex: "Male",
+    Age_group: "15 to 19",
+    DHB: "Waikato",
+    Overseas: "Yes",
+    Last_City_before_NZ: "",
+    Flight_No: "",
+    Departure_date: "",
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3466,24 +3561,18 @@ export const data = [
     Last_City_before_NZ: "Philippines",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "7/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "7/03/20"
   },
   {
     Report_Date: "25/03/2020",
-    Sex: "Male",
-    Age_group: "15 to 19",
+    Sex: "Female",
+    Age_group: "30 to 39",
     DHB: "Waikato",
-    Overseas: "Yes",
+    Overseas: "",
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3493,11 +3582,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ5",
-    Departure_date: "17/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3508,10 +3594,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3522,10 +3605,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3536,10 +3616,7 @@ export const data = [
     Last_City_before_NZ: "Argentina",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3550,10 +3627,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3563,11 +3637,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Switzerland",
     Flight_No: "EK448",
-    Departure_date: "16/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3578,10 +3649,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "25/03/2020",
@@ -3592,10 +3660,7 @@ export const data = [
     Last_City_before_NZ: "Indonesia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3604,12 +3669,9 @@ export const data = [
     DHB: "Waitemata",
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
-    Flight_No: "AirNZ29",
-    Departure_date: "20/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Flight_No: "NZ29",
+    Departure_date: "20/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "25/03/2020",
@@ -3620,10 +3682,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3633,11 +3692,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Scotland",
     Flight_No: "EK448",
-    Departure_date: "21/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3648,10 +3704,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3661,11 +3714,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "AA83",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3676,10 +3726,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3690,10 +3737,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3703,11 +3747,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "EK448",
-    Departure_date: "22/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "22/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3718,10 +3759,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3732,10 +3770,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3745,11 +3780,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "France",
     Flight_No: "QF1033",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3760,10 +3792,7 @@ export const data = [
     Last_City_before_NZ: "Indonesia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3774,10 +3803,7 @@ export const data = [
     Last_City_before_NZ: "Viet Nam",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3787,11 +3813,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK412",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3801,11 +3824,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ7",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3815,11 +3835,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Ireland",
     Flight_No: "JQ233",
-    Departure_date: "20/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3829,11 +3846,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK412",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3844,10 +3858,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3858,10 +3869,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3872,10 +3880,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3886,10 +3891,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -3899,11 +3901,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "QF161",
-    Departure_date: "21/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3913,11 +3912,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ241",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3927,11 +3923,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "WL241",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3941,11 +3934,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ407",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3955,11 +3945,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ5",
-    Departure_date: "17/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3969,11 +3956,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ407",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3984,10 +3968,7 @@ export const data = [
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -3997,11 +3978,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "",
     Flight_No: "NZ1",
-    Departure_date: "23/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "23/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4011,11 +3989,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "EK448",
-    Departure_date: "16/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4025,11 +4000,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Spain",
     Flight_No: "EK448",
-    Departure_date: "18/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4039,11 +4011,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Spain",
     Flight_No: "EK448",
-    Departure_date: "18/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4053,11 +4022,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "",
     Flight_No: "QR920",
-    Departure_date: "22/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "22/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4067,11 +4033,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "JQ278",
-    Departure_date: "14/03/2020",
-    Arrival_date: "6/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "14/03/20",
+    Arrival_date: "6/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4082,10 +4045,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4095,11 +4055,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ5065",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4110,10 +4067,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4124,10 +4078,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4137,11 +4088,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Austria",
     Flight_No: "JQ285",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4152,10 +4100,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4166,10 +4111,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4180,10 +4122,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4193,11 +4132,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK6",
-    Departure_date: "21/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4208,10 +4144,7 @@ export const data = [
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4222,10 +4155,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4236,10 +4166,7 @@ export const data = [
     Last_City_before_NZ: "Indonesia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4250,10 +4177,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4263,11 +4187,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "QF161",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4278,10 +4199,7 @@ export const data = [
     Last_City_before_NZ: "Argentina",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4292,10 +4210,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4306,10 +4221,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ29",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4319,11 +4231,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "AA83",
-    Departure_date: "19/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4334,10 +4243,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4346,12 +4252,9 @@ export const data = [
     DHB: "Waitemata",
     Overseas: "Yes",
     Last_City_before_NZ: "New Zealand",
-    Flight_No: "",
-    Departure_date: "",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Flight_No: "EK448",
+    Departure_date: "21/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4362,10 +4265,7 @@ export const data = [
     Last_City_before_NZ: "Qatar",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "24/03/2020",
@@ -4376,10 +4276,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "24/03/2020",
@@ -4389,11 +4286,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ8",
-    Departure_date: "17/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4401,13 +4295,10 @@ export const data = [
     Age_group: "40 to 49",
     DHB: "Auckland",
     Overseas: "Yes",
-    Last_City_before_NZ: "",
+    Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4417,11 +4308,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Canada",
     Flight_No: "NZ23",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4431,11 +4319,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ5",
-    Departure_date: "17/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4446,10 +4331,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4460,10 +4342,7 @@ export const data = [
     Last_City_before_NZ: "Singapore",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4474,10 +4353,7 @@ export const data = [
     Last_City_before_NZ: "Malaysia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4488,10 +4364,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4501,11 +4374,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Singapore",
     Flight_No: "SQ297",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4515,11 +4385,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "",
-    Departure_date: "11/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "11/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4530,10 +4397,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4544,10 +4408,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4557,11 +4418,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "NZ409",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4571,11 +4429,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ409",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4585,11 +4440,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ409",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4599,11 +4451,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ413",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4613,11 +4462,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "New Zealand",
     Flight_No: "NZ413",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4627,11 +4473,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4641,11 +4484,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4655,11 +4495,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ409",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4670,10 +4507,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4683,11 +4517,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "VA171",
-    Departure_date: "13/03/2020",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4697,11 +4528,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "EK448",
-    Departure_date: "22/03/2020",
-    Arrival_date: "23/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "22/03/20",
+    Arrival_date: "23/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4711,11 +4539,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "NZ5115",
-    Departure_date: "17/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4726,10 +4551,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4739,11 +4561,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ8205",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4754,10 +4573,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4768,10 +4584,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4782,10 +4595,7 @@ export const data = [
     Last_City_before_NZ: "England",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4796,10 +4606,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4810,10 +4617,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4824,10 +4628,7 @@ export const data = [
     Last_City_before_NZ: "England",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4838,10 +4639,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4851,11 +4649,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Thailand",
     Flight_No: "",
-    Departure_date: "21/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4865,11 +4660,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "France",
     Flight_No: "EK448",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4880,10 +4672,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
@@ -4894,24 +4683,18 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "23/03/2020",
     Sex: "Female",
     Age_group: "60 to 69",
     DHB: "Waitemata",
-    Overseas: "",
-    Last_City_before_NZ: "",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "23/03/2020",
@@ -4922,10 +4705,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -4935,11 +4715,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "India",
     Flight_No: "",
-    Departure_date: "13/03/2020",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -4950,10 +4727,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -4963,11 +4737,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ1",
-    Departure_date: "15/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -4977,11 +4748,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "QR920",
-    Departure_date: "21/03/2020",
-    Arrival_date: "22/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "22/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -4991,11 +4759,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ1",
-    Departure_date: "13/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5006,10 +4771,7 @@ export const data = [
     Last_City_before_NZ: "Qatar",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "9/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "9/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5019,11 +4781,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "EK448",
-    Departure_date: "19/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5034,10 +4793,7 @@ export const data = [
     Last_City_before_NZ: "Egypt",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5047,11 +4803,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ527",
-    Departure_date: "21/03/2020",
-    Arrival_date: "21/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "21/03/20",
+    Arrival_date: "21/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5061,11 +4814,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Singapore",
     Flight_No: "SQ297",
-    Departure_date: "17/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5075,11 +4825,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ421",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5090,10 +4837,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5103,11 +4847,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "JQ253",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5118,10 +4859,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5132,10 +4870,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5145,11 +4880,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Belgium",
     Flight_No: "EK448",
-    Departure_date: "15/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5159,11 +4891,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "AA3",
-    Departure_date: "16/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5173,11 +4902,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "EK448",
-    Departure_date: "19/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5187,11 +4913,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Malaysia",
     Flight_No: "MH133",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5202,24 +4925,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "22/03/2020",
-    Sex: "Female",
-    Age_group: "50 to 59",
-    DHB: "Counties Manukau",
-    Overseas: "Yes",
-    Last_City_before_NZ: "Spain",
-    Flight_No: "QR920",
-    Departure_date: "17/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5229,11 +4935,19 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "QR920",
-    Departure_date: "17/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "18/03/20"
+  },
+  {
+    Report_Date: "22/03/2020",
+    Sex: "Female",
+    Age_group: "50 to 59",
+    DHB: "Counties Manukau",
+    Overseas: "Yes",
+    Last_City_before_NZ: "Spain",
+    Flight_No: "QR920",
+    Departure_date: "17/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5244,10 +4958,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5257,11 +4968,8 @@ export const data = [
     Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "NZ449",
-    Departure_date: "8/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "8/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5271,11 +4979,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ8205",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5286,10 +4991,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5299,11 +5001,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Switzerland",
     Flight_No: "NZ8321",
-    Departure_date: "20/03/2020",
-    Arrival_date: "20/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "20/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5313,11 +5012,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ5071",
-    Departure_date: "20/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5327,11 +5023,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ5071",
-    Departure_date: "20/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "20/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5342,10 +5035,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5356,10 +5046,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5369,11 +5056,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5383,11 +5067,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "EK448",
-    Departure_date: "15/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5398,10 +5079,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5411,11 +5089,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
-    Departure_date: "14/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "14/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5425,11 +5100,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "QF143",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5440,10 +5112,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5453,11 +5122,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "EK448",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "22/03/2020",
@@ -5468,10 +5134,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "22/03/2020",
@@ -5481,11 +5144,8 @@ export const data = [
     Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "JQ27",
-    Departure_date: "17/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5495,11 +5155,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "EK52",
-    Departure_date: "15/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5510,10 +5167,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5523,11 +5177,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "NZ1",
-    Departure_date: "6/03/2020",
-    Arrival_date: "8/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "6/03/20",
+    Arrival_date: "8/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5538,10 +5189,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5552,10 +5200,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5565,11 +5210,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Switzerland",
     Flight_No: "EY4689",
-    Departure_date: "18/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "18/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5580,10 +5222,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5594,10 +5233,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5608,10 +5244,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5622,10 +5255,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5636,10 +5266,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5650,10 +5277,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5664,10 +5288,7 @@ export const data = [
     Last_City_before_NZ: "Zimbabwe",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "10/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "10/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5677,11 +5298,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ842",
-    Departure_date: "19/03/2020",
-    Arrival_date: "19/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "19/03/20",
+    Arrival_date: "19/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5692,10 +5310,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5706,10 +5321,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "8/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "8/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5719,11 +5331,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Thailand",
     Flight_No: "NZ8041",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5734,10 +5343,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "21/03/2020",
@@ -5748,10 +5354,7 @@ export const data = [
     Last_City_before_NZ: "Middle East",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5762,10 +5365,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5775,11 +5375,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "France",
     Flight_No: "NZ429",
-    Departure_date: "12/03/2020",
-    Arrival_date: "12/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "12/03/20",
+    Arrival_date: "12/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5789,11 +5386,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "NZ411",
-    Departure_date: "17/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "21/03/2020",
@@ -5804,10 +5398,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "20/03/2020",
@@ -5818,10 +5409,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "20/03/2020",
@@ -5831,11 +5419,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ523",
-    Departure_date: "17/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "20/03/2020",
@@ -5845,11 +5430,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "SQ297",
-    Departure_date: "17/03/2020",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "17/03/20",
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "20/03/2020",
@@ -5859,11 +5441,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "EK448",
-    Departure_date: "10/03/2020",
-    Arrival_date: "12/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "10/03/20",
+    Arrival_date: "12/03/20"
   },
   {
     Report_Date: "20/03/2020",
@@ -5874,10 +5453,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "20/03/2020",
@@ -5887,11 +5463,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ5065",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "20/03/2020",
@@ -5902,10 +5475,7 @@ export const data = [
     Last_City_before_NZ: "Switzerland",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "18/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "18/03/20"
   },
   {
     Report_Date: "20/03/2020",
@@ -5916,10 +5486,7 @@ export const data = [
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "20/03/2020",
@@ -5929,11 +5496,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Singapore",
     Flight_No: "SQ285",
-    Departure_date: "14/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "14/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "20/03/2020",
@@ -5944,10 +5508,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "20/03/2020",
@@ -5957,11 +5518,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "AA83",
-    Departure_date: "13/03/2020",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "14/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -5972,10 +5530,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "14/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -5986,10 +5541,7 @@ export const data = [
     Last_City_before_NZ: "Singapore",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "19/03/2020",
@@ -5999,11 +5551,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "QF161",
-    Departure_date: "15/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6014,10 +5563,7 @@ export const data = [
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "NZ443",
     Departure_date: "",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6028,10 +5574,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "19/03/2020",
@@ -6041,11 +5584,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "QR920",
-    Departure_date: "16/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6055,11 +5595,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ5823",
-    Departure_date: "13/03/2020",
-    Arrival_date: "5/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "5/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6069,11 +5606,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "EK5047",
-    Departure_date: "14/03/2020",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "14/03/20",
+    Arrival_date: "14/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6083,11 +5617,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "NZ5107",
-    Departure_date: "16/03/2020",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6098,10 +5629,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "19/03/2020",
@@ -6111,11 +5639,8 @@ export const data = [
     Overseas: "No",
     Last_City_before_NZ: "",
     Flight_No: "NZ5180",
-    Departure_date: "13/03/2020",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: ""
   },
   {
     Report_Date: "19/03/2020",
@@ -6126,10 +5651,7 @@ export const data = [
     Last_City_before_NZ: "England",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6139,11 +5661,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "France",
     Flight_No: "EK450",
-    Departure_date: "16/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6153,11 +5672,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "France",
     Flight_No: "EK450",
-    Departure_date: "16/03/2020",
-    Arrival_date: "17/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "16/03/20",
+    Arrival_date: "17/03/20"
   },
   {
     Report_Date: "19/03/2020",
@@ -6168,10 +5684,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "19/03/2020",
@@ -6181,11 +5694,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Qatar",
     Flight_No: "QR920",
-    Departure_date: "14/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "14/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "18/03/2020",
@@ -6196,10 +5706,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "18/03/2020",
@@ -6209,11 +5716,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ535",
-    Departure_date: "15/03/2020",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "14/03/20"
   },
   {
     Report_Date: "18/03/2020",
@@ -6223,11 +5727,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Arab Emirates",
     Flight_No: "QF161",
-    Departure_date: "14/03/2020",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "14/03/20",
+    Arrival_date: "14/03/20"
   },
   {
     Report_Date: "18/03/2020",
@@ -6238,10 +5739,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "18/03/2020",
@@ -6252,10 +5750,7 @@ export const data = [
     Last_City_before_NZ: "Australia",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "10/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "10/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6266,10 +5761,7 @@ export const data = [
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6279,11 +5771,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Singapore",
     Flight_No: "QF13",
-    Departure_date: "15/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6294,10 +5783,7 @@ export const data = [
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "16/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "16/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6307,11 +5793,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United Kingdom",
     Flight_No: "SQ247",
-    Departure_date: "13/03/2020",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "14/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6322,10 +5805,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6335,11 +5815,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Singapore",
     Flight_No: "SQ285",
-    Departure_date: "13/03/2020",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6350,10 +5827,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "17/03/2020",
@@ -6364,10 +5838,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "17/03/2020",
@@ -6378,10 +5849,7 @@ export const data = [
     Last_City_before_NZ: "Germany",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "8/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "8/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6391,11 +5859,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "UA559",
-    Departure_date: "11/03/2020",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "11/03/20",
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "17/03/2020",
@@ -6406,10 +5871,7 @@ export const data = [
     Last_City_before_NZ: "Canada",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "12/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "12/03/20"
   },
   {
     Report_Date: "16/03/2020",
@@ -6419,25 +5881,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "NZ7",
-    Departure_date: "10/03/2020",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
-  },
-  {
-    Report_Date: "16/03/2020",
-    Sex: "Male",
-    Age_group: "30 to 39",
-    DHB: "Capital and Coast",
-    Overseas: "Yes",
-    Last_City_before_NZ: "United States of America",
-    Flight_No: "AA83",
-    Departure_date: "14/03/2020",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "10/03/20",
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "16/03/2020",
@@ -6447,11 +5892,19 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "United States of America",
     Flight_No: "AA83",
-    Departure_date: "14/03/2020",
-    Arrival_date: "14/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "14/03/20",
+    Arrival_date: "14/03/20"
+  },
+  {
+    Report_Date: "16/03/2020",
+    Sex: "Male",
+    Age_group: "30 to 39",
+    DHB: "Capital and Coast",
+    Overseas: "Yes",
+    Last_City_before_NZ: "United States of America",
+    Flight_No: "AA83",
+    Departure_date: "14/03/20",
+    Arrival_date: "14/03/20"
   },
   {
     Report_Date: "16/03/2020",
@@ -6461,11 +5914,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "New Zealand",
     Flight_No: "NZ8035",
-    Departure_date: "15/03/2020",
-    Arrival_date: "15/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "15/03/20",
+    Arrival_date: "15/03/20"
   },
   {
     Report_Date: "16/03/2020",
@@ -6475,11 +5925,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Egypt",
     Flight_No: "NZ8041",
-    Departure_date: "9/03/2020",
-    Arrival_date: "9/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "9/03/20",
+    Arrival_date: "9/03/20"
   },
   {
     Report_Date: "16/03/2020",
@@ -6489,11 +5936,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ112",
-    Departure_date: "8/03/2020",
-    Arrival_date: "8/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "8/03/20",
+    Arrival_date: "8/03/20"
   },
   {
     Report_Date: "16/03/2020",
@@ -6504,10 +5948,7 @@ export const data = [
     Last_City_before_NZ: "Singapore",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "15/03/2020",
@@ -6518,10 +5959,7 @@ export const data = [
     Last_City_before_NZ: "Portugal",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "8/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "8/03/20"
   },
   {
     Report_Date: "14/03/2020",
@@ -6531,11 +5969,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Australia",
     Flight_No: "NZ838",
-    Departure_date: "13/03/2020",
-    Arrival_date: "13/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "13/03/20",
+    Arrival_date: "13/03/20"
   },
   {
     Report_Date: "13/03/2020",
@@ -6546,10 +5981,7 @@ export const data = [
     Last_City_before_NZ: "New Zealand",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "10/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "10/03/20"
   },
   {
     Report_Date: "12/03/2020",
@@ -6560,10 +5992,7 @@ export const data = [
     Last_City_before_NZ: "United States of America",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "6/03/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "6/03/20"
   },
   {
     Report_Date: "06/03/2020",
@@ -6574,10 +6003,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "04/03/2020",
@@ -6588,10 +6014,7 @@ export const data = [
     Last_City_before_NZ: "Iran",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "23/02/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "23/02/20"
   },
   {
     Report_Date: "04/03/2020",
@@ -6601,11 +6024,8 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Singapore",
     Flight_No: "NZ283",
-    Departure_date: "25/02/2020",
-    Arrival_date: "26/02/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "25/02/20",
+    Arrival_date: "26/02/20"
   },
   {
     Report_Date: "02/03/2020",
@@ -6616,10 +6036,7 @@ export const data = [
     Last_City_before_NZ: "Italy",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "26/02/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: "26/02/20"
   },
   {
     Report_Date: "28/02/2020",
@@ -6630,10 +6047,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "28/02/2020",
@@ -6644,10 +6058,7 @@ export const data = [
     Last_City_before_NZ: "",
     Flight_No: "",
     Departure_date: "",
-    Arrival_date: "",
-    "": "",
-    __1: "",
-    __2: ""
+    Arrival_date: ""
   },
   {
     Report_Date: "26/02/2020",
@@ -6657,10 +6068,7 @@ export const data = [
     Overseas: "Yes",
     Last_City_before_NZ: "Indonesia",
     Flight_No: "EK450",
-    Departure_date: "25/02/2020",
-    Arrival_date: "26/02/2020",
-    "": "",
-    __1: "",
-    __2: ""
+    Departure_date: "25/02/20",
+    Arrival_date: "26/02/20"
   }
 ];

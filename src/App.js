@@ -74,22 +74,16 @@ const App = () => {
     <div className="app-container">
       <div className="info-container">
         <img className="logo" src="/logo.svg" />
-        <h1>Kia kaha</h1>
         <p>
           Kia kaha, stay strong New Zealand in this COVID-19 pandemic crisis.
-          The aim of this project is to inform and help withou expecting any
-          reward. Especial thanks for AppLab - Auckland University of
-          Technology, the Medini Vipassana Meditaion Centre and the New Zealand
-          Ministry of Health for share their data with the public.
+          The aim of this project is to inform and help.
         </p>
         <p>Data source: New Zealand Ministry of Health - Manatū Hauora</p>
 
         <div className="card-container">
           <div className="card-text">
             <h2>Total cases per reported date</h2>
-            <p>
-              In more or less three days the number of cases grows exponentialy.
-            </p>
+            <p>Let's fight the exponential grow staying in home :).</p>
           </div>
           <div className="card-chart">
             <Plot
