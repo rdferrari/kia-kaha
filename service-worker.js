@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kia-kaha/precache-manifest.34aa4a89a90b0971775cedc7af0fe193.js"
+  "/kia-kaha/precache-manifest.123a65db4db970e9cc496b3e0b73c28d.js"
 );
 
 self.addEventListener('message', (event) => {
