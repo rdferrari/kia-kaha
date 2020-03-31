@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb587454.chunk.css",
-    "main.js": "/static/js/main.f28d83e4.chunk.js",
-    "main.js.map": "/static/js/main.f28d83e4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.99c1980f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.99c1980f.js.map",
-    "static/js/2.5f4a86f1.chunk.js": "/static/js/2.5f4a86f1.chunk.js",
-    "static/js/2.5f4a86f1.chunk.js.map": "/static/js/2.5f4a86f1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.dbcab235a462dd3f3d72fdc4f2b8573c.js": "/precache-manifest.dbcab235a462dd3f3d72fdc4f2b8573c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.cb587454.chunk.css.map": "/static/css/main.cb587454.chunk.css.map",
-    "static/js/2.5f4a86f1.chunk.js.LICENSE.txt": "/static/js/2.5f4a86f1.chunk.js.LICENSE.txt"
+    "main.css": "/kia-kaha/static/css/main.cb587454.chunk.css",
+    "main.js": "/kia-kaha/static/js/main.ab36f5c2.chunk.js",
+    "main.js.map": "/kia-kaha/static/js/main.ab36f5c2.chunk.js.map",
+    "runtime-main.js": "/kia-kaha/static/js/runtime-main.528bce45.js",
+    "runtime-main.js.map": "/kia-kaha/static/js/runtime-main.528bce45.js.map",
+    "static/js/2.5f4a86f1.chunk.js": "/kia-kaha/static/js/2.5f4a86f1.chunk.js",
+    "static/js/2.5f4a86f1.chunk.js.map": "/kia-kaha/static/js/2.5f4a86f1.chunk.js.map",
+    "index.html": "/kia-kaha/index.html",
+    "precache-manifest.34aa4a89a90b0971775cedc7af0fe193.js": "/kia-kaha/precache-manifest.34aa4a89a90b0971775cedc7af0fe193.js",
+    "service-worker.js": "/kia-kaha/service-worker.js",
+    "static/css/main.cb587454.chunk.css.map": "/kia-kaha/static/css/main.cb587454.chunk.css.map",
+    "static/js/2.5f4a86f1.chunk.js.LICENSE.txt": "/kia-kaha/static/js/2.5f4a86f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.99c1980f.js",
+    "static/js/runtime-main.528bce45.js",
     "static/js/2.5f4a86f1.chunk.js",
     "static/css/main.cb587454.chunk.css",
-    "static/js/main.f28d83e4.chunk.js"
+    "static/js/main.ab36f5c2.chunk.js"
   ]
 }
