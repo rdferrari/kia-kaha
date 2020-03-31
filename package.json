@@ -1,6 +1,5 @@
 {
   "name": "kia-kaha",
-  "homepage": "https://rdferrari.github.io/kia-kaha",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
